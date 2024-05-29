@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Part 1</title>
 </head>
-<body>
+<body onload="down()">
 <h1>Download Ho gaya hai </h1>
   
     <script>
+         function down(){
         var link = document.createElement('a');
         link.href = 'Tabulation Sheet 8th.pdf';
         link.download = 'Tabulation Sheet 8th.pdf';
 
         link.click();
+                        }
     </script>
     
 </body>
